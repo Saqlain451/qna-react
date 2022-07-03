@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Zilla+Slab:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: grid;
+  background-color: aliceblue !important;
+  
+}
+h4{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.box{
+  background-color: white !important;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -4px 5px 4px rgba(0,0,0,0.2);
+}
+.card{
+  box-shadow: -3px 3px 3px rgba(0,0,0,0.1);
+  border: none !important;
+  padding-right: 5px;
+}
+.ques{
+  display: flex;
+  gap : 8px !important;
+  align-items: center !important;
+  background-color: aliceblue !important;
+  padding-top: 10px !important;
+  padding-bottom: 5px !important;
+}
+.btn{
+  background-color: white !important;
+  border: none !important;
+  box-shadow: -2px 2px 2px rgba(0,0,0,0.1);
+  border-radius: 50%;
+  font-weight: bold !important;
+
+}
+.ans{
+  background-color: beige !important;
+  align-items: center;
+}
+.btn.focus, .btn:focus {
+  /* -webkit-box-shadow: none!important; */
+  box-shadow: none!important;
+  outline: 0;
+}
